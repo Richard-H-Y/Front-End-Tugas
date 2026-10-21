@@ -1,0 +1,35 @@
+/* Button.module.css */
+.primary {
+  display: inline-block;
+  background-color: #800020;
+  color: #ffffff;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 2px solid #800020;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.primary:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #5c0017;
+  border-color: #5c0017;
+}
+
+.outline {
+  display: inline-block;
+  background-color: transparent;
+  color: #800020;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 2px solid #800020;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.outline:hover {
+  text-decoration: none;
+  background-color: #800020;
+  color: #ffffff;
+}

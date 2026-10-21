@@ -1,0 +1,45 @@
+.navbar {
+  background-color: var(--bg) !important;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text) !important;
+  font-weight: 700;
+}
+
+.brand:hover {
+  text-decoration: none;
+}
+
+.brandAccent {
+  color: var(--accent);
+}
+
+.link {
+  color: var(--muted) !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.link:hover {
+  color: var(--accent) !important;
+}
+
+/* Active link styling */
+.active {
+  color: var(--accent) !important;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+/* Responsif */
+@media (max-width: 767px) {
+  .active {
+    text-decoration: none;
+    border-left: 3px solid var(--accent);
+  }
+}

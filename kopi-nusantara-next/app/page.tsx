@@ -159,7 +159,7 @@ export default function Home() {
           <h2 className="heading">Hubungi &amp; Pesan</h2>
           <p>Isi formulir berikut, tim kami akan segera menghubungi Anda kembali.</p>
           <p><b>Alamat:</b> Jl. Melati No. 12, Bandung</p>
-          <p><b>WhatsApp:</b> 0812-3456-7890</p>
+          <p><b>WhatsApp:</b> 0812-0000-0000</p>
           <p><b>Jam Buka:</b> Setiap hari, 08.00 - 21.00</p>
         </div>
 

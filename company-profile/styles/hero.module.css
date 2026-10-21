@@ -1,0 +1,32 @@
+/* Hero memenuhi sisa layar di antara navbar dan footer */
+.hero {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.logo {
+  width: clamp(90px, 16vw, 130px);
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: var(--accent);
+}
+
+.lead {
+  max-width: 640px;
+  margin: 0 auto 1.75rem;
+  color: var(--muted);
+  font-size: clamp(1rem, 2.2vw, 1.15rem);
+}
